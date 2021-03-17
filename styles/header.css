@@ -4,33 +4,44 @@
     box-sizing: border-box;
 }
 header{
-    background-color: aliceblue; /*#### CAMBIAR COLOR#####*/
+    background-color: #FDFDFD; 
     width: 100vw;
     height: 100px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    padding: 20px 40px;
+    border-bottom: 0.5px solid #EDCB96;
 }
 nav{
     width: 100vw;
     display: flex;
     justify-content: flex-end;
-    
 }
-
 nav ul{
     display: flex;
     justify-content: flex-end;
 }
-
+.show-hidden{
+    display: none;
+}
 .navItems{
-    width: 150px;
+    width: 180px;
     height: 40px;
-    border: 1px solid sienna; /*#### CAMBIAR COLOR#####*/
+    border: 1px solid #EDCB96; 
     border-radius: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px 10px 0px 10px;
+}
+
+@media screen and (max-width: 580px){
+    nav ul{
+        display: none;
+    }
+    .show-hidden{
+        display: unset;
+        margin-right: 30px;
+    }
 }
