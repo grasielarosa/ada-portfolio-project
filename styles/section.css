@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section i{
+    color: #EDCB96;
+}
+
 .holaContent{
     width: 100vw;
     height: 650px;
@@ -18,4 +28,15 @@
     color: #EDCB96;
     font-family: 'Lobster', cursive;
     font-size: 3em;
+}
+
+.boxConocimiento{
+    height: 160px;
+    width: 160px;
+    border: 1px solid #EDCB96;
+    border-radius: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

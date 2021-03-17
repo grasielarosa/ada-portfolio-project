@@ -10,10 +10,19 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #2e2e31;
 }
+h1{
+    font-size: 2em;
+    color: #2e2e31;
+    text-align: center;
+}
 h2{
     font-size: 2em;
     font-weight: 800;
     color: #2F2E41;
+}
+p{
+    font-size: 1em;
+    text-align: center;
 }
 .mainContainer{
     width: 100vw;
