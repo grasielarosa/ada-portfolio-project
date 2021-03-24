@@ -68,12 +68,44 @@ section i{
     align-items: center;
 }
 /*####CONTACTO#####*/
+.contactameSection p{
+    text-align: left;
+
+}
+
 .contactameSection{
+    background-color: #edcc9649;
+    padding: 20% 10% 20% 10%;
+    width: 100vw;
+    height: 120vh;
+}
+.contactameBox{
+    border: #2F2E41 1px solid;
+    border-radius: 25px;
+    padding: 3%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content:space-between;
+    align-items:center;
 }
-.column{
+
+.redesSociales{
+    width: 50%;
+    height: 100%;
+    padding-right: 20%;
+    border: solid 1px black;
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.formBox{
+    width: 50%;
+    border: solid 1px black;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
