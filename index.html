@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/section.css">
+    <link rel="stylesheet" href="./styles/form.css">
 </head>
 <body>
     <div class="mainContainer">
@@ -23,10 +24,12 @@
                     <li class="navItems"><a href="#hola">HOLA</a></li>
                     <li class="navItems"><a href="#conocimientos">CONOCIMIENTOS</a>
                     <li class="navItems"><a href="#proyectos">PROYECTOS</a></li>
-                    <li class="navItems"><a href="#contacto">CONTACTOGIT</a></li>
+                    <li class="navItems"><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
         </header>
+        
+        <!--inicio section hola-->
         <section class="holaContent"><a name="hola"></a>
             <div>
                 <h2>Hola, soy</h2>
@@ -40,7 +43,7 @@
 
 
         
-    <!--fin section hola-->
+        <!--fin section hola-->
         <section><a name="conocimientos"></a>
             <h1>Conocimientos</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis omnis mollitia quam sint iste voluptatem, quasi excepturi corrupti! Adipisci pariatur possimus, numquam vel voluptates corrupti quod optio suscipit eveniet enim.</p>
@@ -58,23 +61,49 @@
                 
             </ul>
         </section>
-     <!--fin section Conocimientos-->
-    <!--inicio section Quote-->
+        <!--fin section Conocimientos-->
+        <!--inicio section Quote-->
         <section class="quoteContent">
             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore dolores natus voluptas veritatis accusamus consequuntur eaque sint, cupiditate enim neque esse dicta reiciendis delectus voluptates, quibusdam totam minima ipsam est a sunt hic, accusantium culpa. At nesciunt modi mollitia commodi corrupti voluptate sint dignissimos obcaecati blanditiis? Reiciendis nemo possimus molestias iusto eaque nisi voluptatibus quis eligendi amet quo nihil esse a rem blanditiis, ullam necessitatibus, optio quos at itaque cum aperiam accusantium! Quam est a quas? Quas facilis, nesciunt eum et tempora natus ratione earum labore nostrum magni in."</p>
         </section>
-     <!--fin section Quote-->
-    <!--inicio section Proyecto-->
+        <!--fin section Quote-->
+        <!--inicio section Proyecto-->
         <section><a name="proyectos"></a>
             <h1>Proyectos</h1>
         </section>
-     <!--fin section Proyectos-->
-    <!--inicio section Contactame-->
-        <section>
-            <p>Contactame</p>
-        </section><a name="contacto"></a>
-     <!--fin section Contactame-->
-    <!--inicio Footer-->
+        <!--fin section Proyectos-->
+     <br><br><br>
+        <!--inicio section Contactame-->
+        <section class="contactameSection"><a name="contacto"></a>
+            <div>
+                <h1>Contactame</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem fugiat velit, voluptatem modi omnis perferendis. Et laborum libero nam? Vel quibusdam impedit dolorum ratione neque necessitatibus alias voluptates optio eaque!</p>
+            <div>
+            <div>
+                <h1>Escribime</h1>
+                <form>
+                    <div>
+                        <label for="idName">Name:</label>
+                        <input type="text" name="Name" required="required">
+                        <label for="idLastName" name="Apellido">Apellido:</label>
+                        <input type="text" required="required">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="idEmail">E-mail:</label>
+                        <input type="mail" name="Email" required="required">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="idMessage">Mensaje:</label>
+                        <textarea name="Message" id="idMessage" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>Enviar</button> 
+                </form>
+            </div>    
+        </section>
+        <!--fin section Contactame-->
+        <!--inicio Footer-->
         <footer>
 
         </footer>

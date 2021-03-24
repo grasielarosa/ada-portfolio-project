@@ -1,0 +1,25 @@
+
+input{
+    height: 40px;
+    border-radius: 10px;
+}
+textarea{
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+button{
+    height: 50px;
+    width: 120px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+    vertical-align:middle;
+    text-align: center;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

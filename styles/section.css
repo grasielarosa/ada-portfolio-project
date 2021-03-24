@@ -9,6 +9,7 @@ section ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 section i{
     color: #EDCB96;
@@ -21,7 +22,6 @@ section i{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #FDFDFD;
     padding: 20px 100px;
 }
 .name{
@@ -54,7 +54,10 @@ section i{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
+}
+.contactameSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
