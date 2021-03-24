@@ -15,21 +15,32 @@ section i{
     color: #EDCB96;
 }
 
+/*####HOLA#####*/
+
+.holaContent h2{
+    font-size: 3em;
+    font-weight: 800;
+    color: #2F2E41;
+    margin-top: 35%;
+    margin-left: -40%;
+}
+
 .holaContent{
     width: 100vw;
-    height: 650px;
+    height: 97vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 20px 100px;
 }
 .name{
     color: #EDCB96;
     font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-size: 4em;
+    margin-left: -40%;
 }
 
+/*####Conocimiento#####*/
 .boxConocimiento{
     height: 160px;
     width: 160px;
@@ -41,9 +52,10 @@ section i{
     align-items: center;
 }
 
+/*####QUOTE#####*/
 .quoteContent{
     width: 100vw;
-    height: 300px;
+    height: 50vh;
     padding: 60px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -55,9 +67,13 @@ section i{
     justify-content: center;
     align-items: center;
 }
+/*####CONTACTO#####*/
 .contactameSection{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
 }

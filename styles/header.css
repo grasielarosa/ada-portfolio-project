@@ -59,7 +59,7 @@ nav ul{
 .navItems:active{
     background-color: #EDCB96;
 }
-li:last-child{
+header li:last-child{
     background-color: #EDCB96;
 }
 
