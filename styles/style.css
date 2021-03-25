@@ -1,30 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #2e2e31;
 }
-h1{
+
+h1 {
     font-size: 2em;
     color: #2e2e31;
     text-align: center;
 }
-h2{
+
+h2 {
     font-size: 2em;
     font-weight: 800;
     color: #2F2E41;
 }
-p{
+
+p {
     font-size: 1em;
     text-align: center;
 }
-.mainContainer{
+
+.mainContainer {
     width: 100vw;
     display: flex;
     padding-left: 25%;
@@ -33,15 +39,27 @@ p{
     justify-content: space-evenly;
     align-items: center;
 }
-.textoOscuro{
+
+.textoOscuro {
     font-size: 1em;
     font-weight: 400;
     color: #2F2E41;
     text-align: justify;
 }
-.ml-30{
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.ml-30 {
     margin-left: 30px;
 }
-.ml-60{
+
+.ml-60 {
     margin-left: 60px;
 }

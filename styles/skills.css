@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+section ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+section i{
+    color: #EDCB96;
+}
+
+.boxConocimiento{
+    height: 160px;
+    width: 160px;
+    border: 1px solid #EDCB96;
+    border-radius: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

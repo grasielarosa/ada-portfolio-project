@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.contactameSection p{
+    text-align: left;
+}
+.redesSociales a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #2F2E41;
+    margin-left: 20px;
+}
+
+.contactameSection{
+    background-color: #edcc9649;
+    padding: 20% 10% 20% 10%;
+    width: 100vw;
+    height: 120vh;
+}
+.contactameBox{
+    border: #2F2E41 1px solid;
+    border-radius: 25px;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+
+.redesSociales{
+    width: 50%;
+    height: 100%;
+    padding-right: 20%;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formBox{
+    width: 50%;
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

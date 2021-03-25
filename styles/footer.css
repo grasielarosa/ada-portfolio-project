@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 100vw;
+    height: 50vh;
+    padding: 60px;
+    background-color: #EDCB96;
+    color: #FDFDFD;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+footer i {
+    margin: 30px;
+
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #2F2E41;
+}
+footer a:hover {
+    color: #FDFDFD;
+}

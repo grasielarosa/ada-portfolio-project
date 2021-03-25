@@ -4,53 +4,12 @@
     box-sizing: border-box;
 }
 
-section ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
-section i{
-    color: #EDCB96;
-}
+/*####HOLA#####
+ver el archivo hello.css*/
 
-/*####HOLA#####*/
 
-.holaContent h2{
-    font-size: 3em;
-    font-weight: 800;
-    color: #2F2E41;
-    margin-top: 35%;
-    margin-left: -40%;
-}
-
-.holaContent{
-    width: 100vw;
-    height: 97vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.name{
-    color: #EDCB96;
-    font-family: 'Lobster', cursive;
-    font-size: 4em;
-    margin-left: -40%;
-}
-
-/*####Conocimiento#####*/
-.boxConocimiento{
-    height: 160px;
-    width: 160px;
-    border: 1px solid #EDCB96;
-    border-radius: 1em;
-    margin: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*####Conocimiento#####
+ver el archivo skills.css*/
 
 /*####QUOTE#####*/
 .quoteContent{
@@ -68,44 +27,3 @@ section i{
     align-items: center;
 }
 /*####CONTACTO#####*/
-.contactameSection p{
-    text-align: left;
-
-}
-
-.contactameSection{
-    background-color: #edcc9649;
-    padding: 20% 10% 20% 10%;
-    width: 100vw;
-    height: 120vh;
-}
-.contactameBox{
-    border: #2F2E41 1px solid;
-    border-radius: 25px;
-    padding: 3%;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:center;
-}
-
-.redesSociales{
-    width: 50%;
-    height: 100%;
-    padding-right: 20%;
-    border: solid 1px black;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.formBox{
-    width: 50%;
-    border: solid 1px black;
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
