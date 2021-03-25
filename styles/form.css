@@ -14,7 +14,8 @@ textarea {
 button {
     height: 50px;
     width: 120px;
-    background-color: antiquewhite;
+    background-color: #EDCB96;
+    border: none;
     border-radius: 30px;
     padding: 10px;
     vertical-align: middle;
