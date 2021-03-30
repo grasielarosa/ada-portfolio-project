@@ -13,6 +13,9 @@
     color: #2F2E41;
     margin-left: 20px;
 }
+.redesSociales a:hover{
+    color: #EDCB96;
+}
 
 .contactameSection{
     background-color: #edcc9649;
@@ -28,6 +31,7 @@
     flex-direction: row;
     justify-content:space-between;
     align-items:flex-start;
+    position: relative;
 }
 
 .redesSociales{
@@ -39,6 +43,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    position: relative;
 }
 
 .formBox{
@@ -48,4 +53,5 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    position: relative;
 }

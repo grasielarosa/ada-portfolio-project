@@ -32,13 +32,11 @@ header a {
     font-size: 1rem;
     color: #2F2E41;
 }
-
-header a:hover {
-    color: #EDCB96;
-}
-
 header a:last-child {
     color: #2F2E41;
+}
+header a:hover {
+    color: #EDCB96;
 }
 
 header a:active {
