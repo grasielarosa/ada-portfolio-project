@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
 section ul {
     display: flex;
     flex-direction: row;
@@ -12,6 +13,9 @@ section ul {
 }
 section i{
     color: #EDCB96;
+}
+.skillsbackground{
+    background-color: #edcc9649;
 }
 
 .skillContainer{
@@ -34,3 +38,4 @@ section i{
     justify-content: space-evenly;
     align-items: center;
 }
+

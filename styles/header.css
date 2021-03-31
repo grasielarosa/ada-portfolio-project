@@ -32,9 +32,9 @@ header a {
     font-size: 1rem;
     color: #2F2E41;
 }
-header a:last-child {
-    color: #2F2E41;
-}
+/*header li:last-child {
+    color: #2F2E41;*/
+
 header a:hover {
     color: #EDCB96;
 }
@@ -69,7 +69,7 @@ nav ul {
 }
 
 header li:last-child {
-    background-color: #EDCB96;
+    background-color: #edcc9649;
 }
 
 @media screen and (max-width: 400px) {

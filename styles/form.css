@@ -19,36 +19,40 @@ input {
     margin-right: 0.5rem;
     padding: 15px;
     display: flex;
+
+
     
-
 }
-
+label{
+    margin-left: 15px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    
+}
 textarea {
     width: 100%;
     background-color: #edcc9649;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
+    
 }
 
 button {
     height: 50px;
     width: 120px;
-    background-color: #EDCB96;
+    background-color: #edcc9649;
     border: none;
     border-radius: 30px;
     font-weight: bold;
     vertical-align: middle;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px;
-    position: relative;
     
 }
 
 form button:hover{
-    background-color: #e9bc73;
-}
-
+    background-color: #EDCB96;
 }
 

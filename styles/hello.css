@@ -5,23 +5,33 @@
 }
 .holaContent h2{
     font-size: 3em;
-    font-weight: 800;
+    font-weight:800;
     color: #2F2E41;
-    margin-top: 35%;
-    margin-left: -40%;
 }
 
 .holaContent{
     width: 100vw;
     height: 97vh;
+    padding: 0%;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 .name{
     color: #EDCB96;
-    font-family: 'Lobster', cursive;
     font-size: 4em;
-    margin-left: -40%;
+    font-family: 'Lobster', cursive;
+}
+.textoOscuro {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    color: #2F2E41;
+    margin-top: -10px;
+    margin-left: 50px;
+    text-align: justify;
+
 }
