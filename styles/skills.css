@@ -14,9 +14,6 @@ section ul {
 section i{
     color: #EDCB96;
 }
-.skillsbackground{
-    background-color: #edcc9649;
-}
 
 .skillContainer{
     width: 60vw;
@@ -32,10 +29,18 @@ section i{
     border: 1px solid #EDCB96;
     border-radius: 1em;
     margin: 2em;
-    color: #2e2e31;
+    color: #EDCB96;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
+.boxConocimiento:hover{
+    background-color: #EDCB96;
+    color:#FFFFFF;
+    border: 1px solid #2F2E41;
+}
+.boxConocimiento:hover .fab{
+    color:#FFFFFF;
+}

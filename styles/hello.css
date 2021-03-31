@@ -35,3 +35,23 @@
     text-align: justify;
 
 }
+
+.holaContent button {
+    height: 50px;
+    width: 200px;
+    background-color: #edcc9649;
+    border: none;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    text-align: center;
+    
+    
+}
+
+.holaContent button:hover{
+    background-color: #EDCB96;
+}

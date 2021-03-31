@@ -59,6 +59,7 @@
 .redesSociales li {
     list-style: none;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .formBox {
