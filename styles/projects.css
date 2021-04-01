@@ -16,21 +16,29 @@
 .boxProject{
     height: 300px;
     width: 300px;
+    max-width: 300px;
     border: 1px solid #EDCB96;
     border-radius: 1em;
+    margin: 10px;
     padding: 10px;
-    
     color: #EDCB96;
+    text-decoration: none;
+    font-weight: bold;
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-    background-size:contain;
-    background-repeat: no-repeat;
+    
+}
+.boxProject:hover {
+    color: #2F2E41;
+    border: 2px solid #2F2E41;
 }
 
-.projectPortfolio{
-    background-image: url(../assets/images/undraw_online_resume_re_ru7s.svg);
+.boxProject img{
+    height: 95%;
+    width: 95%;
+    max-width: 300px;
+    object-fit: contain;
 }
