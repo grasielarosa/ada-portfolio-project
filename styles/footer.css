@@ -9,7 +9,7 @@ footer{
     height: 50vh;
     padding: 60px;
     background-color: #EDCB96;
-    color: #FDFDFD;
+    color: #2F2E41;
     font-size: 1em;
     display: flex;
     flex-direction: column;
@@ -34,4 +34,18 @@ footer a {
 }
 footer a:hover {
     color: #FDFDFD;
+}
+
+.iconBox{
+    font-size: 1.5em;
+    background-color: #FDFDFD;
+    color:#EDCB96;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.iconBox:hover{
+    background-color: #2F2E41;
+
 }

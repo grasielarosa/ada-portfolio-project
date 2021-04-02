@@ -6,9 +6,10 @@
 
 .projectContainer{
     width: 80vw;
+    border: black 1px solid;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -23,12 +24,10 @@
     padding: 10px;
     color: #EDCB96;
     text-decoration: none;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     
 }
 .boxProject:hover {
@@ -41,4 +40,8 @@
     width: 95%;
     max-width: 300px;
     object-fit: contain;
+}
+
+.boxProject a{
+    margin: 0%;
 }

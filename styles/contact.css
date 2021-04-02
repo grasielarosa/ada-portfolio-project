@@ -38,7 +38,7 @@
 }
 .redesSociales a {
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #2F2E41;
 
 }
@@ -55,11 +55,24 @@
 .redesSociales p {
     margin-bottom: 20px;
 }
-
-.redesSociales li {
+.redesSociales ul li{
     list-style: none;
-    margin-bottom: 20px;
-    text-align: left;
+   
+
+}
+
+.iconBox{
+    font-size: 1.5em;
+    color:#EDCB96;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+li:hover .iconBox{
+    background-color: #EDCB96;
+    color: #2F2E41;
 }
 
 .formBox {
@@ -76,5 +89,3 @@
     margin-bottom: 25px;
 
 }
-
-/*iconos: https://codesandbox.io/s/ada-hover-logo-descripcion-q05b1 */
