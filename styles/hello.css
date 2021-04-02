@@ -55,3 +55,25 @@
 .holaContent button:hover{
     background-color: #EDCB96;
 }
+
+@media screen and (max-width: 400px) {
+
+    .holaContent{
+        margin-top: 10px
+    }
+    .holaContent img{
+        display: none;
+    }
+    .holaContent h2{
+        text-align: center;
+        margin: 0%;
+    }
+    .name{
+        text-align: center;
+        margin: 0%;
+    }
+    .textoOscuro {
+        text-align: center;
+        margin: 0%;
+    }    
+}

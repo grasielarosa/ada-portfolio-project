@@ -57,3 +57,13 @@ ver el archivo contact.css*/
 
 /*####Footer#####
 ver el archivo footer.css*/
+
+@media screen and (max-width: 400px) {
+    section{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .quoteContent{
+        display: none;
+    }
+}   

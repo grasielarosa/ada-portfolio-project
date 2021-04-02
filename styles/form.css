@@ -55,4 +55,8 @@ button {
 form button:hover{
     background-color: #EDCB96;
 }
-
+@media screen and (max-width: 400px) {
+    form {
+        display: none;
+    }
+}

@@ -51,6 +51,8 @@ nav ul {
 
 .show-hidden {
     display: none;
+    font-size: 2em;
+    text-align: right;
 }
 
 .navItems {
@@ -73,12 +75,16 @@ header li:last-child {
 }
 
 @media screen and (max-width: 400px) {
+    header {
+        box-shadow: none;
+        padding: 0%;
+        margin: 0%;
+    }
     nav ul {
         display: none;
     }
 
     .show-hidden {
         display: unset;
-        margin-right: 30px;
     }
 }

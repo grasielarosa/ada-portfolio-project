@@ -6,6 +6,7 @@
 
 .projectContainer{
     width: 80vw;
+    margin-bottom: 100px;
     border: black 1px solid;
     display: flex;
     flex-direction: row;
