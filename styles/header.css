@@ -73,7 +73,7 @@ header li:last-child {
     background-color: #edcc9649;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     header {
         
         padding: 0%;

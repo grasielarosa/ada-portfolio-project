@@ -56,7 +56,7 @@ ver el archivo contact.css*/
 /*####Footer#####
 ver el archivo footer.css*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     section{
         padding-left: 0%;
         padding-right: 0%;

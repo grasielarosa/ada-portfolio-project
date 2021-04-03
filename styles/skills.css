@@ -63,7 +63,7 @@ section i {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .boxConocimiento {
         height: 60px;
         width: 45%;
