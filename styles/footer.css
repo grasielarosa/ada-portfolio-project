@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-footer{
+footer {
     width: 100vw;
     height: 50vh;
     padding: 60px;
@@ -16,12 +16,14 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+
 footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
 footer i {
     margin: 30px;
 
@@ -32,20 +34,32 @@ footer a {
     font-size: 1em;
     color: #2F2E41;
 }
+
 footer a:hover {
     color: #FDFDFD;
 }
 
-.iconBox{
+.iconBox {
     font-size: 1.5em;
     background-color: #FDFDFD;
-    color:#EDCB96;
+    color: #EDCB96;
     padding: 10px;
     border-radius: 50%;
 
 }
 
-.iconBox:hover{
+.iconBox:hover {
     background-color: #2F2E41;
 
+}
+
+@media screen and (max-width: 400px) {
+    footer {
+        height: 30vh;
+    }
+
+    footer .navItems {
+        display: none;
+
+    }
 }

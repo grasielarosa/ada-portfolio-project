@@ -21,21 +21,23 @@ input {
     display: flex;
 
 
-    
+
 }
-label{
+
+label {
     margin-left: 15px;
     margin-bottom: -5px;
     margin-top: 15px;
-    
+
 }
+
 textarea {
     width: 100%;
     background-color: #edcc9649;
     border: none;
     border-radius: 20px;
     margin-top: 10px;
-    
+
 }
 
 button {
@@ -49,14 +51,25 @@ button {
     text-align: center;
     margin-top: 30px;
     padding: 10px;
-    
+
 }
 
-form button:hover{
+form button:hover {
     background-color: #EDCB96;
 }
+
 @media screen and (max-width: 400px) {
-    form {
-        display: none;
+    form .row {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    label {
+        margin-bottom: -10px;
+    }
+
+    button {
+        margin-top: 15px;
     }
 }

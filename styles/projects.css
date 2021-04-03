@@ -1,21 +1,25 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.projectContainer{
+.fullContainerProject h1 {
+    margin-top: 115px;
+}
+
+.projectContainer {
     width: 80vw;
     margin-bottom: 100px;
     border: black 1px solid;
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.boxProject{
+.boxProject {
     height: 300px;
     width: 300px;
     max-width: 300px;
@@ -29,20 +33,37 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
+
 }
+
 .boxProject:hover {
     color: #2F2E41;
     border: 2px solid #2F2E41;
 }
 
-.boxProject img{
+.boxProject img {
     height: 95%;
     width: 95%;
     max-width: 300px;
     object-fit: contain;
 }
 
-.boxProject a{
+.boxProject a {
     margin: 0%;
+}
+
+@media screen and (max-width: 400px) {
+    .fullContainerProject h1 {
+        margin-top: 30px;
+    }
+
+    .boxProject {
+        min-width: 60px;
+        justify-content: space-between;
+    }
+
+    .boxProject img {
+        height: 70%;
+        object-fit: contain;
+    }
 }

@@ -30,10 +30,8 @@ ver el archivo skills.css*/
 /*####QUOTE#####*/
 .quoteContent{
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     padding: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
     background-color: #EDCB96;
     color: #FDFDFD;
     font-style: italic;

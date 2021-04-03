@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
 }
+
 .contactameSection p {
     text-align: left;
 }
@@ -36,6 +37,7 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .redesSociales a {
     text-decoration: none;
     font-size: 0.9em;
@@ -48,6 +50,7 @@
 }
 
 .redesSociales h1 {
+    font-size: 2em;
     margin-bottom: 25px;
 
 }
@@ -55,22 +58,24 @@
 .redesSociales p {
     margin-bottom: 20px;
 }
-.redesSociales ul li{
+
+.redesSociales ul li {
     list-style: none;
-   
+
 
 }
 
-.iconBox{
+.iconBox {
     font-size: 1.5em;
-    color:#EDCB96;
+    color: #EDCB96;
     background-color: transparent;
     padding: 10px;
     border-radius: 50%;
     vertical-align: middle;
 
 }
-li:hover .iconBox{
+
+li:hover .iconBox {
     background-color: #EDCB96;
     color: #2F2E41;
 }
@@ -82,17 +87,44 @@ li:hover .iconBox{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    position: relative;
 }
 
 .formBox h1 {
+    font-size: 2em;
     margin-bottom: 25px;
 
 }
 
 
 @media screen and (max-width: 400px) {
+    .contactameSection {
+        height: 150vh;
+
+    }
+
     .contactameBox {
         flex-direction: column;
+
     }
+
+    .redesSociales h1 {
+        margin-bottom: 15px;
+
+    }
+
+    .redesSociales p {
+        margin-bottom: 10px;
+    }
+
+    .formBox {
+        width: 100%;
+    }
+
+    .formBox h1 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+
+    }
+
+
 }

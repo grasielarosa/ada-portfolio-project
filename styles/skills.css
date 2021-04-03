@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -9,24 +9,37 @@ section ul {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+
 }
-section i{
+
+section i {
     color: #EDCB96;
 }
 
-.skillContainer{
+.fullContainer {
+    background-color: #edcc9649;
+
+
+}
+
+.fullContainer h1 {
+    margin-top: 115px;
+}
+
+.skillContainer {
     width: 60vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-.boxConocimiento{
+.boxConocimiento {
     height: 160px;
     width: 160px;
-    border: 1px solid #EDCB96;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
     border-radius: 1em;
     margin: 2em;
     color: #EDCB96;
@@ -36,15 +49,47 @@ section i{
     align-items: center;
 }
 
-.boxConocimiento:hover{
-    background-color: #EDCB96;
-    color:#FFFFFF;
-    border: 1px solid #2F2E41;
+.boxConocimiento i {
+    font-size: 5em;
 }
-.boxConocimiento:hover .fab{
-    color:#FFFFFF;
+
+.boxConocimiento:hover {
+    background-color: #EDCB96;
+    color: #FFFFFF;
+    border: 2px solid #2F2E41;
+}
+
+.boxConocimiento:hover .fab {
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 400px) {
-    
+    .boxConocimiento {
+        height: 60px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 2%;
+        padding: 2%;
+
+    }
+
+    .fullContainer {
+        padding: 7%;
+    }
+
+    .fullContainer h1 {
+        margin-top: 0%;
+    }
+
+    .boxConocimiento i {
+        font-size: 2em;
+        font-weight: normal;
+    }
+
+    .skillContainer {
+        margin-bottom: 30px;
+    }
+
 }

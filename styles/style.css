@@ -32,11 +32,12 @@ p {
     text-align: center;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
-.row{
+
+.row {
     display: flex;
     flex-direction: row;
 }
